@@ -11,7 +11,7 @@
 import SwiftUI
 
 struct Sarun_Neumorphism: View {
-        var bgColor: Color = Color.neuBackground
+        var bgColor: Color = Color.mainBackground
     @State private var isPressed: Bool = false
     
 
@@ -19,7 +19,7 @@ struct Sarun_Neumorphism: View {
     var body: some View {
         
         ZStack {
-            Color.neuBackground.edgesIgnoringSafeArea(.all)
+            Color.mainBackground.edgesIgnoringSafeArea(.all)
 
             Button("Hello, Neumorphism!", action: {
                 self.isPressed.toggle()
@@ -51,9 +51,9 @@ struct Sarun_Neumorphism_Previews: PreviewProvider {
 
 
 extension Color {
-    static let neuBackground = Color(hex: "f0f0f3")
-    static let dropShadow = Color(hex: "aeaec0").opacity(0.4)
-    static let dropLight = Color(hex: "ffffff")
+    static let mainBackground = Color(hex: "DFE4EB")
+    static let dropDarkShadow = Color(hex: "A2B0C5").opacity(0.4)
+    static let dropLightShadow = Color(hex: "FFFFFF")
 }
 
 extension Color {

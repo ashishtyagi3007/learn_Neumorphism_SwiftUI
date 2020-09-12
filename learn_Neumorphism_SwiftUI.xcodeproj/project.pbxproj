@@ -16,6 +16,7 @@
 		B1013651250174BB00DD636F /* Sarun_Neumorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1013650250174BB00DD636F /* Sarun_Neumorphism.swift */; };
 		B1013653250179F200DD636F /* Neumorphism_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1013652250179F100DD636F /* Neumorphism_Button.swift */; };
 		B10136572501FE3B00DD636F /* DesignCodeNeumorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10136562501FE3B00DD636F /* DesignCodeNeumorphism.swift */; };
+		B1996894250D50DB0083133D /* SimpleNeumorphismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1996893250D50DB0083133D /* SimpleNeumorphismView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B1013650250174BB00DD636F /* Sarun_Neumorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sarun_Neumorphism.swift; sourceTree = "<group>"; };
 		B1013652250179F100DD636F /* Neumorphism_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorphism_Button.swift; sourceTree = "<group>"; };
 		B10136562501FE3B00DD636F /* DesignCodeNeumorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeNeumorphism.swift; sourceTree = "<group>"; };
+		B1996893250D50DB0083133D /* SimpleNeumorphismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNeumorphismView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				B1013650250174BB00DD636F /* Sarun_Neumorphism.swift */,
 				B1013652250179F100DD636F /* Neumorphism_Button.swift */,
 				B10136562501FE3B00DD636F /* DesignCodeNeumorphism.swift */,
+				B1996893250D50DB0083133D /* SimpleNeumorphismView.swift */,
 				B101364225016DA300DD636F /* Assets.xcassets */,
 				B101364725016DA300DD636F /* LaunchScreen.storyboard */,
 				B101364A25016DA300DD636F /* Info.plist */,
@@ -160,6 +163,7 @@
 				B10136572501FE3B00DD636F /* DesignCodeNeumorphism.swift in Sources */,
 				B1013651250174BB00DD636F /* Sarun_Neumorphism.swift in Sources */,
 				B101363F25016D9F00DD636F /* SceneDelegate.swift in Sources */,
+				B1996894250D50DB0083133D /* SimpleNeumorphismView.swift in Sources */,
 				B101364125016D9F00DD636F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
